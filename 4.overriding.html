@@ -1,0 +1,26 @@
+<script>
+    class A {
+        constrctor() {
+            console.log("constr A");
+
+        }
+
+    }
+
+
+
+    class B extends class A {
+        constrctor() {
+            console.log("constr B");
+            super();
+            console.log(this);
+
+        }
+
+    }
+
+    var rec = new B;
+
+
+
+</script>

@@ -1,0 +1,24 @@
+<!--  single level inheritence=usig parent values by extends keyword
+method overriding-->
+<script>
+class a{
+myfun(){
+    console.log("Function1");
+}
+}
+
+
+class b extends a{
+myfun2(){
+    console.log("Function2");
+}
+
+myfun(){
+    console.log("Function3");
+}
+
+}
+var rec=new b
+console.log(rec);
+
+</script>
